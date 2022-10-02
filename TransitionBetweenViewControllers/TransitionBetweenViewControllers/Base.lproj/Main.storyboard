@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KcZ-17-vTn">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TransitionBetweenViewControllers" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ANASAYFA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="irJ-B7-bQU">
+                                <rect key="frame" x="102" y="146" width="210" height="44.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ZU-fs-Gf5">
+                                <rect key="frame" x="121.5" y="431" width="171" height="56"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="GİT --&gt; A">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="xBW-1a-fAU" kind="show" id="nSw-s0-Bdc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wpH-0L-U8U">
+                                <rect key="frame" x="120.5" y="551" width="173" height="56"/>
+                                <color key="backgroundColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="GİT --&gt; X">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="YHT-8k-dWS" kind="show" id="WN8-gU-7d5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="irJ-B7-bQU" secondAttribute="trailing" constant="102" id="4Bp-v2-5Gg"/>
+                            <constraint firstItem="9ZU-fs-Gf5" firstAttribute="top" secondItem="irJ-B7-bQU" secondAttribute="bottom" constant="240.5" id="5Vq-zw-auv"/>
+                            <constraint firstItem="wpH-0L-U8U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Epc-Qm-eIR"/>
+                            <constraint firstItem="9ZU-fs-Gf5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="J2E-Tm-16K"/>
+                            <constraint firstItem="irJ-B7-bQU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="102" id="NLx-Qb-sQX"/>
+                            <constraint firstItem="wpH-0L-U8U" firstAttribute="top" secondItem="9ZU-fs-Gf5" secondAttribute="bottom" constant="64" id="Sp6-7f-iYw"/>
+                            <constraint firstItem="irJ-B7-bQU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="58" id="qdz-Kl-MHa"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Y4c-55-Tla"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="79.6875"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YI0-eM-Va6">
+            <objects>
+                <viewController id="YHT-8k-dWS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sb8-t8-sk1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAYFA X" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xKQ-aI-Sgk">
+                                <rect key="frame" x="137" y="148" width="140" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ctp-ma-TX4">
+                                <rect key="frame" x="121" y="420" width="172" height="56"/>
+                                <color key="backgroundColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="GİT --&gt; Y">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="cnZ-CA-5dY" kind="show" id="1by-sK-iN2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eYa-8U-DlY"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="Ctp-ma-TX4" firstAttribute="centerX" secondItem="Sb8-t8-sk1" secondAttribute="centerX" id="5Ha-dU-ehV"/>
+                            <constraint firstItem="xKQ-aI-Sgk" firstAttribute="top" secondItem="eYa-8U-DlY" secondAttribute="top" constant="60" id="KYM-jq-nwC"/>
+                            <constraint firstItem="xKQ-aI-Sgk" firstAttribute="centerX" secondItem="Sb8-t8-sk1" secondAttribute="centerX" id="bhz-8O-bUE"/>
+                            <constraint firstItem="Ctp-ma-TX4" firstAttribute="centerY" secondItem="Sb8-t8-sk1" secondAttribute="centerY" id="j4L-56-43C"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="K41-Jg-ikz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="La4-K2-Bg7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1815.9420289855075" y="593.97321428571422"/>
+        </scene>
+        <!--Screen-->
+        <scene sceneID="ZSb-aB-sl2">
+            <objects>
+                <viewController id="cnZ-CA-5dY" customClass="YScreen" customModule="TransitionBetweenViewControllers" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iGL-lc-lbl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAYFA Y" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLM-Io-c4M">
+                                <rect key="frame" x="137.5" y="148" width="139" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gz0-M4-5Vi">
+                                <rect key="frame" x="40" y="363" width="334" height="56"/>
+                                <color key="backgroundColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="GİT --&gt; ANASAYFA">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonRoot:" destination="cnZ-CA-5dY" eventType="touchUpInside" id="2nE-zQ-wry"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hed-3F-2RU"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <constraints>
+                            <constraint firstItem="eLM-Io-c4M" firstAttribute="top" secondItem="hed-3F-2RU" secondAttribute="top" constant="60" id="18N-6o-jSb"/>
+                            <constraint firstItem="Gz0-M4-5Vi" firstAttribute="top" secondItem="eLM-Io-c4M" secondAttribute="bottom" constant="170" id="89t-ZM-xsV"/>
+                            <constraint firstItem="Gz0-M4-5Vi" firstAttribute="centerX" secondItem="iGL-lc-lbl" secondAttribute="centerX" id="Vuz-9x-auO"/>
+                            <constraint firstItem="eLM-Io-c4M" firstAttribute="centerX" secondItem="iGL-lc-lbl" secondAttribute="centerX" id="g6K-jZ-AFT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="0NW-yc-If9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ttp-DB-rPi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2705.7971014492755" y="606.69642857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2XG-8w-tl2">
+            <objects>
+                <viewController id="xBW-1a-fAU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4zj-rC-btT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAYFA A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AuY-hA-eQQ">
+                                <rect key="frame" x="137" y="148" width="140" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4G4-7R-AUQ">
+                                <rect key="frame" x="120.5" y="420" width="173" height="56"/>
+                                <color key="backgroundColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="GİT --&gt; B">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Zf3-WX-aoD" kind="show" id="uDf-Jk-2Cd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1MT-4j-wjd"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstItem="4G4-7R-AUQ" firstAttribute="centerY" secondItem="4zj-rC-btT" secondAttribute="centerY" id="8zF-fY-vOg"/>
+                            <constraint firstItem="AuY-hA-eQQ" firstAttribute="centerX" secondItem="4zj-rC-btT" secondAttribute="centerX" id="FHr-3a-xDF"/>
+                            <constraint firstItem="4G4-7R-AUQ" firstAttribute="centerX" secondItem="4zj-rC-btT" secondAttribute="centerX" id="eJe-jf-AJs"/>
+                            <constraint firstItem="AuY-hA-eQQ" firstAttribute="top" secondItem="1MT-4j-wjd" secondAttribute="top" constant="60" id="waW-cd-U41"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="5JF-tz-jJv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cma-dp-rzo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1815.9420289855075" y="-113.16964285714285"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Zjx-Eb-hIr">
+            <objects>
+                <viewController id="Zf3-WX-aoD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j4y-dO-4JA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAYFA B" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SFp-E3-SVz">
+                                <rect key="frame" x="137.5" y="148" width="139" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHf-QF-oLH">
+                                <rect key="frame" x="121" y="464" width="172" height="56"/>
+                                <color key="backgroundColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="GİT --&gt; Y">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="cnZ-CA-5dY" kind="show" id="ejo-uz-OyH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cdX-0b-shf"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="AHf-QF-oLH" firstAttribute="centerX" secondItem="j4y-dO-4JA" secondAttribute="centerX" id="S63-QB-3we"/>
+                            <constraint firstItem="SFp-E3-SVz" firstAttribute="top" secondItem="cdX-0b-shf" secondAttribute="top" constant="60" id="bUQ-9r-prj"/>
+                            <constraint firstItem="SFp-E3-SVz" firstAttribute="centerX" secondItem="j4y-dO-4JA" secondAttribute="centerX" id="nFI-q8-VVd"/>
+                            <constraint firstItem="AHf-QF-oLH" firstAttribute="top" secondItem="SFp-E3-SVz" secondAttribute="bottom" constant="271" id="taM-4f-VXF"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="jdR-t8-gTy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qgc-Ni-ICp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2705.7971014492755" y="-108.48214285714285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="h66-jO-ED5">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KcZ-17-vTn" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="i3Y-So-Kg7">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Rd9-XW-PrE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zhs-hk-xtU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="79.6875"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="1by-sK-iN2"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
